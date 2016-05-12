@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.facebook" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".splash"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ActivityUserProfile"
+            android:label="@string/title_activity_activity_user_profile" >
+        </activity>
+        <activity
+            android:name=".Registration"
+            android:label="@string/title_activity_registration" >
+        </activity>
+        <activity
+            android:name=".UserHomePage"
+            android:label="@string/title_activity_user_home_page" >
+        </activity>
+        <activity
+            android:name=".Users"
+            android:label="@string/title_activity_users" >
+        </activity>
+        <activity
+            android:name=".Item_layout"
+            android:label="@string/title_activity_item_layout" >
+        </activity>
+        <activity
+            android:name=".friend_request"
+            android:label="@string/title_activity_friend_request" >
+        </activity>
+        <activity
+            android:name=".Requests"
+            android:label="@string/title_activity_friend_request" >
+        </activity>
+        <activity
+            android:name=".friend_accept"
+            android:label="@string/title_activity_friend_request" >
+        </activity>
+        <activity
+            android:name=".Friends"
+            android:label="@string/title_activity_friends" >
+        </activity>
+        <activity
+            android:name=".Friends_details"
+            android:label="@string/title_activity_friends" >
+        </activity>
+        <activity
+            android:name=".Friend_block"
+            android:label="@string/title_activity_friends" >
+        </activity>
+        <activity
+            android:name=".Login_fragment"
+            android:label="@string/title_activity_login_fragment" >
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+    </application>
+
+</manifest>
