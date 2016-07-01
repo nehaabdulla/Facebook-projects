@@ -1,0 +1,226 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.user.facebook.Home"
+    >
+
+
+
+
+    <LinearLayout
+        android:layout_width="385dp"
+        android:layout_height="45dp"
+        android:background="#ffffff">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView3"
+            android:src="@drawable/drawer_icon1"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="6dp"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginLeft="-390dp"
+        android:background="#D7D7D7">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginLeft="-385dp"
+        android:background="#ffffff">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageView4"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/more"
+            />
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText11"
+            android:hint="What's on Your mind ?"
+            android:layout_weight="0"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="15dp"
+             />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="135dp"
+        android:layout_marginLeft="-390dp"
+        android:background="@drawable/border">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/imageView5"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/status"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            android:id="@+id/textView24"
+            android:textAllCaps="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/imageView6"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/photo"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Photo"
+            android:id="@+id/textView25"
+            android:textAllCaps="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/imageView7"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/check_in"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check in"
+            android:textAllCaps="true"
+            android:id="@+id/textView26"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+
+
+
+
+
+
+
+    <!--<TableLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent">-->
+
+                    <!--<TableRow>-->
+
+                        <!--<ImageButton-->
+                            <!--android:id="@+id/button_x"-->
+                            <!--android:layout_width="20dp"-->
+                            <!--android:layout_height="22dp"-->
+                            <!--android:layout_marginRight="10dp"-->
+                            <!--android:layout_marginLeft="-5dp"-->
+                            <!--android:background="@null"-->
+                            <!--android:scaleType="fitXY"-->
+                            <!--android:src="@drawable/gallery" >-->
+                        <!--</ImageButton>-->
+
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+                            <!--android:layout_marginRight="30dp"-->
+                            <!--android:text="Add Photos"-->
+                            <!--android:id="@+id/textView1"-->
+                            <!--android:layout_column="1"-->
+                            <!--/>-->
+
+                        <!--<ImageButton-->
+                            <!--android:id="@+id/button_y"-->
+                            <!--android:layout_width="20dp"-->
+                            <!--android:layout_height="22dp"-->
+                            <!--android:layout_marginRight="10dp"-->
+                            <!--android:layout_marginLeft="-17dp"-->
+                            <!--android:background="@null"-->
+                            <!--android:scaleType="fitXY"-->
+                            <!--android:src="@drawable/checkin" >-->
+                        <!--</ImageButton>-->
+
+
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+                           <!--android:layout_marginLeft="-6dp"-->
+                            <!--android:text="Check In"-->
+                            <!--android:id="@+id/textView2"-->
+                            <!--android:layout_column="2"-->
+                           <!--/>-->
+
+                        <!--<ImageButton-->
+                            <!--android:id="@+id/button_z"-->
+                            <!--android:layout_width="20dp"-->
+                            <!--android:layout_height="22dp"-->
+                            <!--android:layout_marginLeft="11dp"-->
+                            <!--android:background="@null"-->
+                            <!--android:scaleType="fitXY"-->
+                            <!--android:src="@drawable/more" >-->
+                        <!--</ImageButton>-->
+
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                           <!--android:layout_marginLeft="5dp"-->
+                            <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+                            <!--android:text="More"-->
+                            <!--android:id="@+id/textView3"-->
+                            <!--android:layout_column="3"-->
+                            <!--/>-->
+                    <!--</TableRow>-->
+
+                    <!--<View-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="1dp"-->
+                        <!--android:layout_marginTop="3dp"-->
+                        <!--android:background="#cccccc" />-->
+
+                <!--</TableLayout>-->
+
+
+
+
+</LinearLayout>
+
+
+

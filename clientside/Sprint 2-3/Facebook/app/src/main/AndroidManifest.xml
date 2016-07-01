@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.user.facebook" >
+    package="com.neha.user.facebook" >
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -10,7 +10,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".splash"
+            android:name="com.neha.user.facebook.splash"
             android:label="@string/app_name"
             android:theme="@style/Theme.AppCompat.NoActionBar" >
             <intent-filter>
@@ -20,51 +20,51 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.neha.user.facebook.MainActivity"
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name=".ActivityUserProfile"
+            android:name="com.neha.user.facebook.ActivityUserProfile"
             android:label="@string/title_activity_activity_user_profile" >
         </activity>
         <activity
-            android:name=".Registration"
+            android:name="com.neha.user.facebook.Registration"
             android:label="@string/title_activity_registration" >
         </activity>
         <activity
-            android:name=".UserHomePage"
+            android:name="com.neha.user.facebook.UserHomePage"
             android:label="@string/title_activity_user_home_page" >
         </activity>
         <activity
-            android:name=".Users"
+            android:name="com.neha.user.facebook.Users"
             android:label="@string/title_activity_users" >
         </activity>
         <activity
-            android:name=".Item_layout"
+            android:name="com.neha.user.facebook.Item_layout"
             android:label="@string/title_activity_item_layout" >
         </activity>
         <activity
-            android:name=".friend_request"
+            android:name="com.neha.user.facebook.friend_request"
             android:label="@string/title_activity_friend_request" >
         </activity>
         <activity
-            android:name=".Requests"
+            android:name="com.neha.user.facebook.Requests"
             android:label="@string/title_activity_friend_request" >
         </activity>
         <activity
-            android:name=".friend_accept"
+            android:name="com.neha.user.facebook.friend_accept"
             android:label="@string/title_activity_friend_request" >
         </activity>
         <activity
-            android:name=".Friends"
+            android:name="com.neha.user.facebook.Friends"
             android:label="@string/title_activity_friends" >
         </activity>
         <activity
-            android:name=".Friends_details"
+            android:name="com.neha.user.facebook.Friends_details"
             android:label="@string/title_activity_friends" >
         </activity>
         <activity
-            android:name=".Friend_block"
+            android:name="com.neha.user.facebook.Friend_block"
             android:label="@string/title_activity_friends" >
         </activity>
         <activity
