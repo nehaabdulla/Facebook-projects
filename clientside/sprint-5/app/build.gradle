@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.3"
 
     defaultConfig {
-        applicationId "com.example.user.facebook"
+        applicationId "com.baabtra.user.Sprint5"
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 1

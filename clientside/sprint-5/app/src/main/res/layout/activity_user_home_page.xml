@@ -5,7 +5,7 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.user.facebook.UserHomePage">
+    tools:context="com.baabtra.user.Sprint5.UserHomePage">
 
 
 <!-- As the main content view, the view below consumes the entire
@@ -81,7 +81,7 @@
     <fragment android:id="@+id/navigation_drawer"
         android:layout_width="@dimen/navigation_drawer_width" android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:name="com.example.user.facebook.NavigationDrawerFragment"
+        android:name="com.baabtra.user.Sprint5.NavigationDrawerFragment"
         tools:layout="@layout/fragment_navigation_drawer" />
 
 

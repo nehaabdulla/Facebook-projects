@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Sprint 5 - Copy.iml" filepath="$PROJECT_DIR$/Sprint 5 - Copy.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sprint-5.iml" filepath="$PROJECT_DIR$/sprint-5.iml" />
     </modules>
   </component>
 </project>
